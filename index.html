@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/tailwind.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>AI Ally</title>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              regular: ["tt-regular", "sans-serif"],
+              medium: ["tt-medium", "sans-serif"],
+              demibold: ["tt-demibold", "sans-serif"],
+            },
+            colors: {
+              brand: "#54EA54",
+              neutral: {
+                50: "#ffffff",
+                100: "#F4F5F6",
+                300: "#E9EBED",
+                500: "#949495",
+                800: "#262728",
+                950: "#000000",
+              },
+              accent: {
+                green: "#BBF99E",
+                violet: "#CCBAFE",
+                blue: "#A5E4F9",
+                yellow: "#EDD087",
+              },
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <section class="px-28 py-9 w-full flex justify-center">
+      <nav class="flex w-full flex jusify-between items-center">
+        <img class="h-8" src="./assets/svg/logo_dark.svg" alt="logo" />
+
+        <div class="flex w-full gap-6 justify-center">
+          <nav-item class="h-6" href="#" label="Home"></nav-item>
+          <nav-item href="#" label="Features"></nav-item>
+          <nav-item href="#" label="Pricing"></nav-item>
+          <nav-item href="#" label="Testimonials"></nav-item>
+        </div>
+        <button
+          onclick="window.open('https://riglabs.com', '_blank')"
+          class="bg-brand text-white py-2 px-4 rounded-md flex justify-center items-center"
+        >
+          Sign In
+        </button>
+      </nav>
+    </section>
+    <!-- Navbar ended -->
+    <default-navbar></default-navbar>
+    <script src="./assets/js/NavItem.js"></script>
+    <script src="./assets/js/DefaultNavbar.js"></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "tt-regular";
+  src: url("../fonts/TT-Firs-Neue-Regular.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tt-medium";
+  src: url("../fonts/TT-Firs-Neue-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tt-demibold";
+  src: url("../fonts/TT-Firs-Neue-DemiBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.body-medium {
+  @apply font-medium;
+}
+.bb {
+  @apply font-bold text-lg tracking-wide font-sans;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
