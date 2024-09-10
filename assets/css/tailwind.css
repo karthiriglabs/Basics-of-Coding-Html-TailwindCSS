@@ -27,7 +27,7 @@
   @apply font-medium;
 }
 .bb {
-  @apply font-bold text-lg tracking-wide font-sans;
+  @apply font-medium text-lg tracking-wide font-sans;
 }
 
 * {
