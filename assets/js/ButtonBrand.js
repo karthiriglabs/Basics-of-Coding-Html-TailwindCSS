@@ -1,4 +1,4 @@
-class DefaultButton extends HTMLElement {
+class ButtonBrand extends HTMLElement {
   constructor() {
     super();
     this.render();
@@ -19,26 +19,27 @@ class DefaultButton extends HTMLElement {
     const icon = this.getAttribute("icon") || "";
     const alt = this.getAttribute("alt") || "";
     let styles =
-      "lab-md flex text-center justify-center items-center gap-2 hover:scale-[103%] transition-all ease-in duration-300";
+      "lab-md flex text-center justify-center items-center gap-2 transition-all ease-in duration-300 group";
 
     switch (size) {
       case "label":
         styles += "lab-md text-neutral-50 hover:text-neutral-500";
         break;
       case "xs":
-        styles += "lab-xs bg-neutral-50 px-4 py-2 rounded-full";
+        styles +=
+          "lab-xs bg-neutral-50 px-4 py-2 rounded-full hover:scale-[103%]";
         break;
       case "sm":
         styles +=
-          "lab-sm bg-brand px-8 py-3 min-w-40 rounded-full hover:shadow-xl";
+          "lab-sm bg-brand px-8 py-3 min-w-40 rounded-full hover:shadow-xl hover:scale-[103%]";
         break;
       case "md":
         styles +=
-          "lab-md bg-brand px-10 py-3 min-w-60 rounded-full hover:shadow-xl";
+          "lab-md bg-brand px-10 py-3 min-w-60 rounded-full hover:shadow-xl hover:scale-[103%]";
         break;
       case "lg":
         styles +=
-          "lab-lg bg-brand px-16 py-4 min-w-80 rounded-full hover:shadow-xl";
+          "lab-lg bg-brand px-16 py-4 min-w-80 rounded-full hover:shadow-xl hover:scale-[103%]";
         break;
     }
 
@@ -47,7 +48,10 @@ class DefaultButton extends HTMLElement {
           ${label}
           ${
             icon
-              ? `<default-icon url="${icon}" alt="${alt}"></default-icon>`
+              ? `
+                <default-icon url="${icon}" alt="${alt}">
+                </default-icon>
+              `
               : ""
           }
         </button>
@@ -55,4 +59,4 @@ class DefaultButton extends HTMLElement {
   }
 }
 
-customElements.define("brand-button", DefaultButton);
+customElements.define("brand-button", ButtonBrand);

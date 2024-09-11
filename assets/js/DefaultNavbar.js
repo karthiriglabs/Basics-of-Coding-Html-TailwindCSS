@@ -16,14 +16,15 @@ class DefaultNavbar extends HTMLElement {
     const logo = this.getAttribute("logo") || "";
     this.innerHTML = `
         <section id="navbar" class="px-28 py-9 w-full flex justify-center">
-      <nav class="flex w-full flex jusify-between gap-2 items-center">
-        <img class="h-8" src="./assets/svg/logo_dark.svg" alt="logo" />
+      <nav class="flex w-full jusify-between gap-2 items-center">
+
+      <brand-logo></brand-logo>
 
         <div class="flex w-full gap-6 justify-center">
-          <nav-item class="h-6" href="#" label="Home"></nav-item>
-          <nav-item href="#" label="Features"></nav-item>
-          <nav-item href="#" label="Pricing"></nav-item>
-          <nav-item href="#" label="Testimonials"></nav-item>
+          <nav-item class="h-6" href="./index.html" label="Home"></nav-item>
+          <nav-item href="#features" label="Features"></nav-item>
+          <nav-item href="#pricing" label="Pricing"></nav-item>
+          <nav-item href="#testimony" label="Testimonials"></nav-item>
         </div>
         <brand-button label="Sign In" url="#" size="sm"></brand-button>
       </nav>

@@ -533,7 +533,7 @@ video {
 
 /* Body */
 .body-md {
-    font-family: "TT Firs Neue Medium", sans-serif;
+    font-family: "TT Firs Neue Regular", sans-serif;
     --tw-text-opacity: 1;
     color: rgb(0 0 0 / var(--tw-text-opacity));
   font-size: 16px;
@@ -541,7 +541,7 @@ video {
   letter-spacing: 1%;
   }
 .body-lg {
-    font-family: "TT Firs Neue Medium", sans-serif;
+    font-family: "TT Firs Neue Regular", sans-serif;
     --tw-text-opacity: 1;
     color: rgb(0 0 0 / var(--tw-text-opacity));
   font-size: 18px;

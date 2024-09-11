@@ -14,34 +14,46 @@ class HeroSection extends HTMLElement {
         class="bg-neutral-950 flex justify-evenly pt-[60px] px-[120px] rounded-3xl overflow-hidden w-full gap-32 items-center"
       >
         <div class="flex flex-col gap-10 pl-10 justify-center">
-          <div class="flex flex-col gap-1 max-w-[450px]">
-            <h1 class="text-neutral-50 font-medium text-[60px]">
+          <div class="flex flex-col gap-3 max-w-[450px]">
+
+            <h1 class="text-neutral-50 h1">
               Unleash the full potential of AI
             </h1>
-            <p class="text-neutral-50 font-medium text-[18px]">
+
+            <p class="text-neutral-50 body-lg">
               AI Ally is a versatile assistant that utilizes state-of-the-art
               natural language processing to provide real-time support and
-              assistance across various domains
+              assistance across various domains.
             </p>
+
           </div>
           <div class="flex flex-col gap-16">
             <div class="flex gap-8 items-center justify-start">
-              <brand-button
+              
+            <brand-button
                 label="Get the App"
                 url="#"
                 size="md"
                 icon="./assets/icons/arrow_right_alt.svg"
                 alt="Get the App"
               ></brand-button>
-              <brand-button label="More" url="#" size="label"></brand-button>
-            </div>
+
+              <brand-button label="More" url="#" size="label">
+              </brand-button>
+           
+              </div>
             <div class="flex gap-16 items-center justify-start">
-              <quick-stat
+              
+            <quick-stat
                 value="4.8"
                 description="Rating on AppStore"
-              ></quick-stat>
-              <quick-stat value="700k+" description="Active users"></quick-stat>
-            </div>
+              >
+              </quick-stat>
+              
+              <quick-stat value="700k+" description="Active users">
+              </quick-stat>
+           
+              </div>
           </div>
         </div>
         <img
