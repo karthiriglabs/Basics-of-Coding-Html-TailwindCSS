@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "scripts": {
-    "dev": "postcss assets/css/input.css -o assets/css/output.css",
-    "build": "NODE_ENV=production npm run dev",
+    "build": "postcss assets/css/input.css -o assets/css/output.css",
     "watch": "watch `npm run build` ./dist"
   },
   "keywords": [],

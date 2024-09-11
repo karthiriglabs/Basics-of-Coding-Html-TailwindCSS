@@ -530,10 +530,120 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+/* Body */
 .body-md {
+    font-family: "TT Firs Neue Medium", sans-serif;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1%;
+  }
+.body-lg {
+    font-family: "TT Firs Neue Medium", sans-serif;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1%;
+  }
+/* Heading */
+.h1 {
+    font-family: "TT Firs Neue Medium", sans-serif;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0%;
+  }
+.h4 {
     font-family: "TT Firs Neue Demibold", sans-serif;
-  font-size: 3.5rem;
-  line-height: 2.25rem;
-  text-align: left;
-  color: #262729;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -2%;
+  }
+.h6 {
+    font-family: "TT Firs Neue Demibold", sans-serif;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  }
+/* Label */
+.label-xxs {
+    font-family: "TT Firs Neue Medium", sans-serif;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 1%;
+  }
+.label-xs {
+    font-family: "TT Firs Neue Medium", sans-serif;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1%;
+  }
+.label-sm {
+    font-family: "TT Firs Neue Medium", sans-serif;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1%;
+  }
+.label-md {
+    font-family: "TT Firs Neue Demibold", sans-serif;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  }
+.label-lg {
+    font-family: "TT Firs Neue Medium", sans-serif;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -2%;
+  }
+.label-xl {
+    font-family: "TT Firs Neue Medium", sans-serif;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 1%;
+  }
+.label-xxl {
+    font-family: "TT Firs Neue Medium", sans-serif;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -2%;
+  }
+/* Caption */
+.caption-sm {
+    font-family: "TT Firs Neue Regular", sans-serif;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1%;
+  }
+.caption-md {
+    font-family: "TT Firs Neue Regular", sans-serif;
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 1%;
   }

@@ -33,20 +33,102 @@
     font-display: swap;
   }
 
-  .font-regular {
+  .font-rg {
     font-family: "TT Firs Neue Regular", sans-serif;
   }
-  .font-medium {
+  .font-md {
     font-family: "TT Firs Neue Medium", sans-serif;
   }
-  .font-demibold {
+  .font-db {
     font-family: "TT Firs Neue Demibold", sans-serif;
   }
 }
+
+/* Body */
 .body-md {
-  @apply font-demibold;
-  font-size: 3.5rem;
-  line-height: 2.25rem;
-  text-align: left;
-  color: #262729;
+  @apply font-md text-black;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1%;
+}
+.body-lg {
+  @apply font-md text-black;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1%;
+}
+/* Heading */
+.h1 {
+  @apply font-md text-black;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0%;
+}
+.h4 {
+  @apply font-db text-black;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -2%;
+}
+.h6 {
+  @apply font-db text-black;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+/* Label */
+.label-xxs {
+  @apply font-md text-black;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 1%;
+}
+.label-xs {
+  @apply font-md text-black;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1%;
+}
+.label-sm {
+  @apply font-md text-black;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1%;
+}
+.label-md {
+  @apply font-db text-black;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+.label-lg {
+  @apply font-md text-black;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -2%;
+}
+.label-xl {
+  @apply font-md text-black;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 1%;
+}
+.label-xxl {
+  @apply font-md text-black;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -2%;
+}
+/* Caption */
+.caption-sm {
+  @apply font-rg text-black;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1%;
+}
+.caption-md {
+  @apply font-rg text-black;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 1%;
 }
