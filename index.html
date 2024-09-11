@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/tailwind.css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/output.css" />
     <title>AI Ally</title>
+    <link rel="icon" type="image/x-icon" href="./assets/fav/favicon.ico" />
     <script>
       tailwind.config = {
         theme: {
@@ -26,114 +27,6 @@
               yellow: "#EDD087",
             },
           },
-          fontSize: {
-            body: {
-              md: [
-                "16px",
-                {
-                  lineHeight: "24px",
-                  letterSpacing: "1%",
-                },
-              ],
-              lg: [
-                "18px",
-                {
-                  lineHeight: "24px",
-                  letterSpacing: "1%",
-                },
-              ],
-            },
-            heading: {
-              h1: [
-                "60px",
-                {
-                  lineHeight: "60px",
-                  letterSpacing: "0%",
-                },
-              ],
-              h4: [
-                "36px",
-                {
-                  lineHeight: "40px",
-                  letterSpacing: "-2%",
-                },
-              ],
-              h6: [
-                "21px",
-                {
-                  lineHeight: "32px",
-                  letterSpacing: "0%",
-                },
-              ],
-            },
-            label: {
-              xxs: [
-                "14px",
-                {
-                  lineHeight: "20px",
-                  letterSpacing: "1%",
-                },
-              ],
-              xs: [
-                "16px",
-                {
-                  lineHeight: "24px",
-                  letterSpacing: "1%",
-                },
-              ],
-              sm: [
-                "18px",
-                {
-                  lineHeight: "24px",
-                  letterSpacing: "1%",
-                },
-              ],
-              md: [
-                "21px",
-                {
-                  lineHeight: "32px",
-                  letterSpacing: "0%",
-                },
-              ],
-              lg: [
-                "24px",
-                {
-                  lineHeight: "28px",
-                  letterSpacing: "-2%",
-                },
-              ],
-              xl: [
-                "32px",
-                {
-                  lineHeight: "40px",
-                  letterSpacing: "1%",
-                },
-              ],
-              xxl: [
-                "36px",
-                {
-                  lineHeight: "40px",
-                  letterSpacing: "-2%",
-                },
-              ],
-            },
-            caption: {
-              sm: [
-                "16px",
-                {
-                  lineHeight: "20px",
-                  letterSpacing: "1%",
-                },
-              ],
-              md: [
-                "22px",
-                {
-                  lineHeight: "30px",
-                  letterSpacing: "1%",
-                },
-              ],
-            },
-          },
           fontFamily: {
             fris: ["TT Firs Neue", "sans-serif"],
           },
@@ -145,13 +38,13 @@
   <body>
     <!-- Navbar -->
     <default-navbar></default-navbar>
-    <!-- Navbar ended -->
-
     <!-- Hero -->
     <hero-section></hero-section>
-    <!-- Hero ended -->
-
+    <!-- Spacer -->
     <default-spacer></default-spacer>
+
+    <h1 class="body-md">Hello</h1>
+    <!-- Javascript -->
     <script src="./assets/js/DefaultIcon.js"></script>
     <script src="./assets/js/DefaultSpacer.js"></script>
     <script src="./assets/js/NavItem.js"></script>

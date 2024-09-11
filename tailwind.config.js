@@ -1,12 +1,6 @@
-modules.exports = {
-  mode: "jit",
-  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./index.html"],
-  darkMode: false, // or 'media' or 'class'
+module.exports = {
+  content: ["./public/**/*.html"],
   theme: {
-    
-    extend: {},
-  },
-  variants: {
     extend: {},
   },
   plugins: [],

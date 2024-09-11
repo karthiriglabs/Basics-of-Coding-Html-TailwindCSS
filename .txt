@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @layer base {
   @font-face {
     font-family: "TT Firs Neue Regular";
@@ -29,10 +25,10 @@
 }
 
 .body-medium {
-  @apply font-medium;
+  @apply font-family-fris;
 }
 .bb {
-  @apply font-medium text-lg tracking-wide font-sans;
+  @apply font-fris text-lg tracking-wide font-sans;
 }
 
 * {
