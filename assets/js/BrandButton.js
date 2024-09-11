@@ -18,29 +18,28 @@ class DefaultButton extends HTMLElement {
     const url = this.getAttribute("url") || "";
     const icon = this.getAttribute("icon") || "";
     const alt = this.getAttribute("alt") || "";
-    let styles = "";
+    let styles =
+      "lab-md flex text-center justify-center items-center gap-2 hover:scale-[103%] transition-all ease-in duration-300";
 
     switch (size) {
       case "label":
-        styles =
-          "text-neutral-50 font-medium hover:text-neutral-500 text-[21px] leading-[32px] tracking-[0%] transition-all ease-in duration-300";
+        styles += "lab-md text-neutral-50 hover:text-neutral-500";
         break;
-      case "x-small":
-        styles = "padding: 4px 8px; font-size: 12px;";
+      case "xs":
+        styles += "lab-xs bg-neutral-50 px-4 py-2 rounded-full";
         break;
-      case "small":
-        styles =
-          "bg-brand text-black px-8 py-3 min-w-32 rounded-full font-fris flex justify-center items-center text-[18px] leading-[24px] tracking-[1%] hover:shadow-xl transition-all ease-in duration-300 hover:scale-[105%]";
+      case "sm":
+        styles +=
+          "lab-sm bg-brand px-8 py-3 min-w-32 rounded-full hover:shadow-xl";
         break;
-      case "medium":
-        styles =
-          "bg-brand text-black px-10 py-3 min-w-60 rounded-full font-demibold flex justify-center items-center text-[21px] leading-[32px] tracking-[0%] hover:shadow-xl transition-all ease-in duration-300 gap-2 hover:scale-[105%]";
+      case "md":
+        styles +=
+          "lab-md bg-brand px-10 py-3 min-w-60 rounded-full hover:shadow-xl";
         break;
-      case "large":
-        styles = "padding: 20px 40px; font-size: 18px;";
+      case "lg":
+        styles +=
+          "lab-lg bg-brand px-16 py-4 min-w-80 rounded-full hover:shadow-xl";
         break;
-      default:
-        styles = "color: white; font-size: 14px;";
     }
 
     this.innerHTML = `

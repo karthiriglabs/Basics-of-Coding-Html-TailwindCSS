@@ -25,7 +25,7 @@ class DefaultNavbar extends HTMLElement {
           <nav-item href="#" label="Pricing"></nav-item>
           <nav-item href="#" label="Testimonials"></nav-item>
         </div>
-        <brand-button label="Sign In" url="#" size="small"></brand-button>
+        <brand-button label="Sign In" url="#" size="sm"></brand-button>
       </nav>
     </section>
     `;

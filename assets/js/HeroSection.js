@@ -29,7 +29,7 @@ class HeroSection extends HTMLElement {
               <brand-button
                 label="Get the App"
                 url="#"
-                size="medium"
+                size="md"
                 icon="./assets/icons/arrow_right_alt.svg"
                 alt="Get the App"
               ></brand-button>

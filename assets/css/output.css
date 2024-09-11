@@ -574,7 +574,7 @@ video {
   letter-spacing: 0%;
   }
 /* Label */
-.label-xxs {
+.lab-xxs {
     font-family: "TT Firs Neue Medium", sans-serif;
     --tw-text-opacity: 1;
     color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -582,7 +582,7 @@ video {
   line-height: 20px;
   letter-spacing: 1%;
   }
-.label-xs {
+.lab-xs {
     font-family: "TT Firs Neue Medium", sans-serif;
     --tw-text-opacity: 1;
     color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -590,7 +590,7 @@ video {
   line-height: 24px;
   letter-spacing: 1%;
   }
-.label-sm {
+.lab-sm {
     font-family: "TT Firs Neue Medium", sans-serif;
     --tw-text-opacity: 1;
     color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -598,7 +598,7 @@ video {
   line-height: 24px;
   letter-spacing: 1%;
   }
-.label-md {
+.lab-md {
     font-family: "TT Firs Neue Demibold", sans-serif;
     --tw-text-opacity: 1;
     color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -606,7 +606,7 @@ video {
   line-height: 32px;
   letter-spacing: 0%;
   }
-.label-lg {
+.lab-lg {
     font-family: "TT Firs Neue Medium", sans-serif;
     --tw-text-opacity: 1;
     color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -614,7 +614,7 @@ video {
   line-height: 28px;
   letter-spacing: -2%;
   }
-.label-xl {
+.lab-xl {
     font-family: "TT Firs Neue Medium", sans-serif;
     --tw-text-opacity: 1;
     color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -622,7 +622,7 @@ video {
   line-height: 40px;
   letter-spacing: 1%;
   }
-.label-xxl {
+.lab-xxl {
     font-family: "TT Firs Neue Medium", sans-serif;
     --tw-text-opacity: 1;
     color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -631,7 +631,7 @@ video {
   letter-spacing: -2%;
   }
 /* Caption */
-.caption-sm {
+.cap-sm {
     font-family: "TT Firs Neue Regular", sans-serif;
     --tw-text-opacity: 1;
     color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -639,7 +639,7 @@ video {
   line-height: 20px;
   letter-spacing: 1%;
   }
-.caption-md {
+.cap-md {
     font-family: "TT Firs Neue Regular", sans-serif;
     --tw-text-opacity: 1;
     color: rgb(0 0 0 / var(--tw-text-opacity));
