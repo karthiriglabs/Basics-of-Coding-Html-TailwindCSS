@@ -30,7 +30,7 @@ class DefaultButton extends HTMLElement {
         break;
       case "sm":
         styles +=
-          "lab-sm bg-brand px-8 py-3 min-w-32 rounded-full hover:shadow-xl";
+          "lab-sm bg-brand px-8 py-3 min-w-40 rounded-full hover:shadow-xl";
         break;
       case "md":
         styles +=
