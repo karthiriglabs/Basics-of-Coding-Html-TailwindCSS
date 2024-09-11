@@ -1,4 +1,4 @@
-class FaqSection extends HTMLElement {
+class FeaturesSection extends HTMLElement {
   constructor() {
     super();
     this.render();
@@ -9,7 +9,7 @@ class FaqSection extends HTMLElement {
   }
   render() {
     this.innerHTML = `
-<section
+<section id="features"
       class="flex w-full items-center justify-center px-[120px] bg-neutral-100 pt-[140px]"
     >
       <div class="flex w-full justify-center items-center gap-20">
@@ -54,4 +54,4 @@ class FaqSection extends HTMLElement {
     </section>`;
   }
 }
-customElements.define("faq-section", FaqSection);
+customElements.define("features-section", FeaturesSection);
