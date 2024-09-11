@@ -540,7 +540,8 @@ video {
   line-height: 24px;
   letter-spacing: 1%;
   }
-.body-lg {
+.body-lg,
+p {
     font-family: "TT Firs Neue Regular", sans-serif;
     --tw-text-opacity: 1;
     color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -647,3 +648,7 @@ video {
   line-height: 30px;
   letter-spacing: 1%;
   }
+
+body {
+  padding-bottom: 5rem;
+}

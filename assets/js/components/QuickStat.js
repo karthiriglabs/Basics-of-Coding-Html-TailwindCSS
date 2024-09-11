@@ -16,8 +16,8 @@ class QuickStat extends HTMLElement {
     const description = this.getAttribute("description") || "";
     this.innerHTML = `
       <div class="flex flex-col justify-center items-start gap-1">
-      <span class="text-neutral-50 h4">${value}</span>
-      <span class="text-neutral-50 body-md">${description}</span>
+      <h4 class="text-neutral-50 h4">${value}</h4>
+      <p class="text-neutral-50 body-md">${description}</p>
       </div>
       `;
   }

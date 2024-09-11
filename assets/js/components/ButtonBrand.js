@@ -15,11 +15,11 @@ class ButtonBrand extends HTMLElement {
   render() {
     const size = this.getAttribute("size") || "";
     const label = this.getAttribute("label") || "Button";
-    const url = this.getAttribute("url") || "";
+    const url = this.getAttribute("url") || "#";
     const icon = this.getAttribute("icon") || "";
     const alt = this.getAttribute("alt") || "";
     let styles =
-      "lab-md flex text-center justify-center items-center gap-2 transition-all ease-in duration-300 group";
+      "lab-md flex text-center justify-center items-center gap-2 transition-all ease-in duration-300";
 
     switch (size) {
       case "label":
@@ -27,7 +27,7 @@ class ButtonBrand extends HTMLElement {
         break;
       case "xs":
         styles +=
-          "lab-xs bg-neutral-50 px-4 py-2 rounded-full hover:scale-[103%]";
+          "lab-xs bg-neutral-50 px-4 py-2 min-w-10 rounded-full hover:scale-[103%]";
         break;
       case "sm":
         styles +=

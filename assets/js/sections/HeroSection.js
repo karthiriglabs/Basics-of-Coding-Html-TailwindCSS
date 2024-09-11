@@ -20,7 +20,7 @@ class HeroSection extends HTMLElement {
               Unleash the full potential of AI
             </h1>
 
-            <p class="text-neutral-50 body-lg">
+            <p class="text-neutral-50">
               AI Ally is a versatile assistant that utilizes state-of-the-art
               natural language processing to provide real-time support and
               assistance across various domains.

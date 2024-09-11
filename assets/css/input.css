@@ -51,7 +51,8 @@
   line-height: 24px;
   letter-spacing: 1%;
 }
-.body-lg {
+.body-lg,
+p {
   @apply font-rg text-black;
   font-size: 18px;
   line-height: 24px;
@@ -131,4 +132,8 @@
   font-size: 22px;
   line-height: 30px;
   letter-spacing: 1%;
+}
+
+body {
+  @apply pb-20;
 }

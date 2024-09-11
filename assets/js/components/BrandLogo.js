@@ -19,7 +19,7 @@ class BrandLogo extends HTMLElement {
         <img
             src="./assets/svg/logo_${mode}.svg"
             alt="logo"
-            class="h-8 w-auto flex justify-start items-center"
+            class="h-12 w-auto flex justify-start items-center"
         />
     </a>
     

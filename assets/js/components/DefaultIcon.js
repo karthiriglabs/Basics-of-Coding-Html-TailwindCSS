@@ -16,11 +16,11 @@ class DefaultIcon extends HTMLElement {
     const url = this.getAttribute("url") || "";
     const size = this.getAttribute("size") || "24";
     this.innerHTML = `
-          <img class="min-w-6 min-h-6"
+        <img class="min-w-6 min-h-6"
           width="${size}"
           height="${size}"
           src="${url}"
-        alt="${alt}"
+          alt="${alt}"
         >
       `;
   }
