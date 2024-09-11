@@ -15,10 +15,10 @@ class HeroSection extends HTMLElement {
       >
         <div class="flex flex-col gap-10 pl-10 justify-center">
           <div class="flex flex-col gap-1 max-w-[450px]">
-            <h1 class="text-white font-medium text-[60px]">
+            <h1 class="text-neutral-50 font-medium text-[60px]">
               Unleash the full potential of AI
             </h1>
-            <p class="text-white font-medium text-[18px]">
+            <p class="text-neutral-50 font-medium text-[18px]">
               AI Ally is a versatile assistant that utilizes state-of-the-art
               natural language processing to provide real-time support and
               assistance across various domains

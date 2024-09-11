@@ -2,25 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "tt-regular";
-  src: url("../fonts/TT-Firs-Neue-Regular.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
+@layer base {
+  @font-face {
+    font-family: "TT Firs Neue Regular";
+    src: url("../fonts/TT-Firs-Neue-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
 
-@font-face {
-  font-family: "tt-medium";
-  src: url("../fonts/TT-Firs-Neue-Medium.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
+  @font-face {
+    font-family: "TT Firs Neue Medium";
+    src: url("../fonts/TT-Firs-Neue-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
 
-@font-face {
-  font-family: "tt-demibold";
-  src: url("../fonts/TT-Firs-Neue-DemiBold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
+  @font-face {
+    font-family: "TT Firs Neue Demibold";
+    src: url("../fonts/TT-Firs-Neue-DemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
 }
 
 .body-medium {

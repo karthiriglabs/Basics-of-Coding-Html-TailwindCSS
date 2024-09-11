@@ -23,14 +23,14 @@ class DefaultButton extends HTMLElement {
     switch (size) {
       case "label":
         styles =
-          "text-white font-medium hover:text-neutral-500 text-[21px] leading-[32px] tracking-[0%] transition-all ease-in duration-300";
+          "text-neutral-50 font-medium hover:text-neutral-500 text-[21px] leading-[32px] tracking-[0%] transition-all ease-in duration-300";
         break;
       case "x-small":
         styles = "padding: 4px 8px; font-size: 12px;";
         break;
       case "small":
         styles =
-          "bg-brand text-black px-8 py-3 min-w-32 rounded-full font-medium flex justify-center items-center text-[18px] leading-[24px] tracking-[1%] hover:shadow-xl transition-all ease-in duration-300 hover:scale-[105%]";
+          "bg-brand text-black px-8 py-3 min-w-32 rounded-full font-fris flex justify-center items-center text-[18px] leading-[24px] tracking-[1%] hover:shadow-xl transition-all ease-in duration-300 hover:scale-[105%]";
         break;
       case "medium":
         styles =

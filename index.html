@@ -9,30 +9,135 @@
     <script>
       tailwind.config = {
         theme: {
-          extend: {
-            fontFamily: {
-              regular: ["tt-regular", "sans-serif"],
-              medium: ["tt-medium", "sans-serif"],
-              demibold: ["tt-demibold", "sans-serif"],
+          colors: {
+            brand: "#54EA54",
+            neutral: {
+              50: "#ffffff",
+              100: "#F4F5F6",
+              300: "#E9EBED",
+              500: "#949495",
+              800: "#262728",
+              950: "#000000",
             },
-            colors: {
-              brand: "#54EA54",
-              neutral: {
-                50: "#ffffff",
-                100: "#F4F5F6",
-                300: "#E9EBED",
-                500: "#949495",
-                800: "#262728",
-                950: "#000000",
-              },
-              accent: {
-                green: "#BBF99E",
-                violet: "#CCBAFE",
-                blue: "#A5E4F9",
-                yellow: "#EDD087",
-              },
+            accent: {
+              green: "#BBF99E",
+              violet: "#CCBAFE",
+              blue: "#A5E4F9",
+              yellow: "#EDD087",
             },
           },
+          fontSize: {
+            body: {
+              md: [
+                "16px",
+                {
+                  lineHeight: "24px",
+                  letterSpacing: "1%",
+                },
+              ],
+              lg: [
+                "18px",
+                {
+                  lineHeight: "24px",
+                  letterSpacing: "1%",
+                },
+              ],
+            },
+            heading: {
+              h1: [
+                "60px",
+                {
+                  lineHeight: "60px",
+                  letterSpacing: "0%",
+                },
+              ],
+              h4: [
+                "36px",
+                {
+                  lineHeight: "40px",
+                  letterSpacing: "-2%",
+                },
+              ],
+              h6: [
+                "21px",
+                {
+                  lineHeight: "32px",
+                  letterSpacing: "0%",
+                },
+              ],
+            },
+            label: {
+              xxs: [
+                "14px",
+                {
+                  lineHeight: "20px",
+                  letterSpacing: "1%",
+                },
+              ],
+              xs: [
+                "16px",
+                {
+                  lineHeight: "24px",
+                  letterSpacing: "1%",
+                },
+              ],
+              sm: [
+                "18px",
+                {
+                  lineHeight: "24px",
+                  letterSpacing: "1%",
+                },
+              ],
+              md: [
+                "21px",
+                {
+                  lineHeight: "32px",
+                  letterSpacing: "0%",
+                },
+              ],
+              lg: [
+                "24px",
+                {
+                  lineHeight: "28px",
+                  letterSpacing: "-2%",
+                },
+              ],
+              xl: [
+                "32px",
+                {
+                  lineHeight: "40px",
+                  letterSpacing: "1%",
+                },
+              ],
+              xxl: [
+                "36px",
+                {
+                  lineHeight: "40px",
+                  letterSpacing: "-2%",
+                },
+              ],
+            },
+            caption: {
+              sm: [
+                "16px",
+                {
+                  lineHeight: "20px",
+                  letterSpacing: "1%",
+                },
+              ],
+              md: [
+                "22px",
+                {
+                  lineHeight: "30px",
+                  letterSpacing: "1%",
+                },
+              ],
+            },
+          },
+          fontFamily: {
+            fris: ["TT Firs Neue", "sans-serif"],
+          },
+          extend: {},
         },
       };
     </script>
