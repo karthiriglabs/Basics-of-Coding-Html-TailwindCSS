@@ -10,7 +10,7 @@ class FooterSection extends HTMLElement {
   render() {
     this.innerHTML = `
 
-    <section class="flex flex-col gap-8 px-[104px]">
+    <section id="footer" class="flex flex-col gap-8 px-[104px]">
       <div class="flex justify-between w-full items-center">
         <brand-logo mode="light"></brand-logo>
         <div class="flex gap-6 justify-center flex-wrap">
@@ -39,3 +39,12 @@ class FooterSection extends HTMLElement {
   }
 }
 customElements.define("footer-section", FooterSection);
+
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth",
+    });
+  });
+});

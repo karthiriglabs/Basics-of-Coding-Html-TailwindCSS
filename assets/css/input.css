@@ -135,5 +135,9 @@ p {
 }
 
 body {
-  @apply pb-20;
+  @apply pb-10;
+}
+
+html {
+  scroll-behavior: smooth;
 }

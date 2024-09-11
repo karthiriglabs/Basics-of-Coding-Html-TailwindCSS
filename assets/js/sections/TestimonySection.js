@@ -58,3 +58,12 @@ class TestimonySection extends HTMLElement {
   }
 }
 customElements.define("testimony-section", TestimonySection);
+
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth",
+    });
+  });
+});
