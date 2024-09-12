@@ -4,10 +4,6 @@ class DefaultNavbar extends HTMLElement {
     this.render();
   }
 
-  static get observedAttributes() {
-    return ["title", "logo"];
-  }
-
   attributeChangedCallback() {
     this.render();
   }
