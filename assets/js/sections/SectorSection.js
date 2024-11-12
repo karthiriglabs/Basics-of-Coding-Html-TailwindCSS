@@ -43,7 +43,7 @@ class SectorSection extends HTMLElement {
     <sector-card
       image="./assets/images/card-2.png"
       label="Professionals"
-      description="AI Ally can provide quick access to relevant information and offer data analysis insignts"
+      description="AI Ally can provide quick access to relevant information and offer data analysis insights"
       url="#"
     ></sector-card
     ><sector-card
