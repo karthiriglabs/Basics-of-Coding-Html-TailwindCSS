@@ -20,6 +20,6 @@ Grab the [Figma file](https://www.figma.com/community/file/1415677170384939370/a
 6. Start coding in the `index.html`.
 
 # Website
-View the HTML - TailwindCSS - JavaScript Project - [Ai Ally](https://aially-demo-riglabs-collective.web.app/)
+View the HTML - TailwindCSS - JavaScript Project - <a href="https://aially-demo-riglabs-collective.web.app/" target="_blank">Ai Ally</a>
 
 Happy coding! 🚀
